@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #182c81;
+    color: rgb(233, 229, 229);
+    align-items: center;
+    padding: 16px ;
+    
+}
+header nav li{
+    display: inline;
+    font-size: 18px;
+    
+    
+}
+.container ul{
+    margin-right: 140px;
+}
+.container ul a{
+    margin: 10px;
+    text-decoration: none;
+    color: rgb(226, 224, 224);
+
+}
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.corpo{
+    display: flex;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+.corpo img{
+    height: 400px;
+    margin-top: 24px;
+}
+header .container h1{
+    margin-left: 0px;
+    
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.corpo h2{
+    margin-top: 30px;
+    margin-left: 12px;
+    color: #182c81;
+    
+}
+.corpo .texto{
+    font-size: medium;
+    color: #192350;
+    margin-top: 20px;
+}
+.corpo .texto img{
+    height: 20px;
+    margin-top: 8px;
+    margin-right: 8px;
+}
+body{
+    background-color: #182b8127;
+}
+.sessao{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 65px;
+    color: #182c81;
+}
+.sessao .rod{
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-between;
+}
+.form input{
+    width: 300px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    height: 28px;
+    padding: 8px;
+}
+.form textarea{
+    width: 300px;
+    margin-top: 6px;
+    padding: 8px;
+    resize: none;
+}
+.form button{
+    width: 300px;
+    font-size: large;
+    background-color: #182c81;
+    color: white;
+    border: none;
+    padding: 20px;
+    cursor: pointer;
+    
+}
+.contact img{
+    height: 25px;
+    margin-right: 8px;
+    margin-top: 6px;
+}
+.adres address{
+    color: rgb(57, 55, 55);
+    font-size: medium;
+    margin-top: 6px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+.form button:hover{
+    background-color: #5564a8;
+}
+.container nav ul li a:hover{
+    text-decoration: underline;
+}
+.copy{
+    
+    
+    background-color: #182c81;
+    color: white;
+    margin: 10px auto;
+    padding: 5px;
+}
+.copy p{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    
+}
+h2{
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.corpo p, input, textarea{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+header{
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.sessao h3{
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.contact ul li{
+    display: inline;
+}
+.contact ul li a{
+    text-decoration: none;
+}
+textarea:focus, input:focus{
+    outline-color: #192350;
+}
+
+
